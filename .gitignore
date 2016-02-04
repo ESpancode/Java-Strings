@@ -1,12 +1,36 @@
-*.class
+package Strings;
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+/*This program uses Strings*/
+/*Strings that I will use relate to Star Trek Characters*/
+/*References from http://www.homeandlearn.co.uk/java/user_input.html*/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+public class Star_Trek {
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+public static void main(String[] args){ /* setting up strings in the class*/
+
+String first_name; /*First Name must be declared*/
+first_name = "James.T.";
+
+String last_name; /*Declaring Last Name*/
+last_name = "Kirk";
+
+/*Print both names on screen*/
+System.out.println(first_name+""+last_name);
+
+/*First name and Last name must be in brackets to be printed*/
+}
+
+
+public Star_Trek() { /* Constructor must be created for new section*/
+
+/*Only one name will be declared for Spock*/
+String name; /*Declaring Name*/
+
+name = "Spock";
+
+/*Print only one name screen*/
+System.out.println(""+name);
+
+/* name must be in brackets to be printed*/
+}
+}
